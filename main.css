@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  border: 10px red;
+  border: 10px solid red;
 }
 
 main {
@@ -15,8 +15,12 @@ li {
 
 @media (min-width: 376px) {
   body {
-    border: 10px blue;
+    border: 10px solid blue;
   }
 }
 
-@media (max-width: );
+@media (min-width: 426px) {
+  body {
+    border: 10px solid green;
+  }
+}
