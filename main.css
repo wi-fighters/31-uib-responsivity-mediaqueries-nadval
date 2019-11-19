@@ -1,19 +1,30 @@
 
 body {
-    height: 100vh;
-    border: 10px solid black;
+  height: 100vh;
+  border: 10px solid red;
 }
 
 main {
-    margin: 15px;
-    font-family: sans-serif;
-    font-size: 20px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 li {
     margin-bottom: 5px;
 }
 
+@media (min-width: 376px) {
+  body {
+    border: 10px solid blue;
+  }
+}
+
+@media (min-width: 426px) {
+  body {
+    border: 10px solid green;
+  }
+}
 @media (min-width: 769px){
     body {
         border: 10px solid yellow;
@@ -25,4 +36,3 @@ li {
         border: 10px solid hotpink;
     }
 }
-
